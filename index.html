@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Frontend Mentor | Skilled e-learning landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body class="light-theme">
+    <nav>
+        <div class="container">
+            <h2 id="logoNav"><b><u>Online Recruitment Solution</u></b></h2>
+            <div class="buttonNav"><button id="changeModeButton" aria-label="activate light mode"
+                    onclick="changeMode()"><img src="images/sun.svg" id="icon"></button>
+                    <button aria-label="registration button"><a href="login.html">Login</a></button>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <section class="hero">
+            <div class="container">
+                <div class="headerText">
+                    <h1>Welcome to Our Online Recruitment Solution!</h1>
+                    <h2>Efficient. Streamlined. Effective.</h2>
+                    <p>Are you tired of sifting through stacks of resumes and spending hours scheduling interviews? Our
+                        online recruitment solution is here to revolutionize your hiring process. Designed with hiring
+                        managers and HR professionals in mind, our platform offers a comprehensive suite of features
+                        that will save you time, effort, and resources, all while ensuring you find the perfect
+                        candidates for your organization.</p><button aria-label="registration button">Get
+                        Started</button>
+                </div>
+                <div class="images">
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="images/image-hero-desktop.png">
+                        <source media="(min-width: 780px)" srcset="images/image-hero-tablet.png">
+                        <source media="(min-width: 140px)" srcset="images/image-hero-mobile.png"><img
+                            src="images/image-hero-desktop.png" class="imageHero">
+                    </picture>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div class="gridItems">
+            <div class="Introduction">
+                <h2>Key Features & Benefits !</h2>
+                <br>
+                <h3>for Hiring Managers and HR Professionals</h3>
+            </div>
+            <div class="card"><img src="images/icon-animation.svg" alt="" aria-hidden="true">
+                <h3>Time and Cost Savings</h3>
+                <p>Our online recruitment solution significantly reduces the time and effort spent on administrative
+                    tasks.
+                </p><a href="">Get Started</a>
+            </div>
+            <div class="card"><img src="images/icon-design.svg" alt="" aria-hidden="true">
+                <h3>Enhanced Candidate Quality</h3>
+                <p>This increases the chances of finding the best fit for your organization and ultimately improves the
+                    quality of your hires.</p><a href="">Get Started</a>
+            </div>
+            <div class="card"><img src="images/icon-photography.svg" alt="" aria-hidden="true">
+                <h3>Automated Applicant Screening</h3>
+                <p>Our intelligent screening technology analyzes resumes and applications, automatically filtering out
+                    unqualified candidates.
+                </p><a href="">Get Started</a>
+            </div>
+            <div class="card"><img src="images/icon-crypto.svg" alt="" aria-hidden="true">
+                <h3>Collaborative Hiring</h3>
+                <p>Our platform enables seamless collaboration among hiring teams. Share candidate profiles, leave
+                    comments, and rate applicants to ensure everyone is on the same page.</p><a
+                    href="">Get Started</a>
+            </div>
+            <div class="card"><img src="images/icon-business.svg" alt="" aria-hidden="true">
+                <h3>Improved Candidate Experience</h3>
+                <p>Candidates appreciate a smooth and efficient application process. With our user-friendly interface
+                    and intuitive features.</p><a href="">Get Started</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footerContent">
+            
+            <button aria-label="registration button">Get Started</button>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
